@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background: #333;
+  color: #fff;
+}
+/*======= Navbar CSS Start */
+.navbar{
+  border-bottom: 3px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.7;
+}
+/*======= Navbar CSS End */
+
+/*======= Home Section CSS Start */
+
+#home-section{
+  background: url('../img/home.jpg') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+#home-section .dark-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+#home-section .home-inner{
+  padding-top: 150px;
+}
+.card-form{
+  opacity: 0.8;
+}
+#home-section .fa{
+  color: #008ed6;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+/*======= Home Section CSS End */
+
+/*======= Explore Section CSS Start */
+
+#explore-section .fa{
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+/*======= Explore Section CSS End */
+
+/*======= Create Section CSS Start */
+
+#create-main-section .fa{
+  color: #008ed6;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+/*======= Create Section CSS End */
+/*======= Create Section CSS Start */
+
+#share-main-section .fa{
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+/*======= Create Section CSS End */
